@@ -52,4 +52,4 @@ if st.button("Predict Price"):
 
     price = prediction[0]
 
-    st.success(f"Estimated House Price: ₹ {price:.2f} Lakhs")
+    st.success(f"Estimated House Price: ₹ {price:.2f}")
