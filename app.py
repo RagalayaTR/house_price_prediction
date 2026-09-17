@@ -12,7 +12,7 @@ model_path = os.path.join(
 model = joblib.load(model_path)
 
 # App title
-st.title("🏠 House Price Prediction")
+st.title("House Price Prediction")
 st.write("Predict house price based on area, bedrooms and floors")
 
 # User inputs
